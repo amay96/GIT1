@@ -13,5 +13,26 @@ Mandatory commands to initialize a git repository and make the first commit:
 # git commit -m "first commit"
 # git push -u origin main
 
-Creating a new branch and switching to it:
+# Creating a new branch and switching to it:
 git checkout -b new-branch-name
+
+# Switching back to any branch:
+git checkout branch-name
+
+# Merging a branch into the current branch:
+git merge branch-name
+
+# Deleting a branch:
+git branch -d branch-name
+
+# Viewing the commit history:
+git log
+
+# Cloning a repository:
+git clone repository-url
+
+# Staging specific files for commit:
+git add file1 file2 
+
+# Current branch name:
+git branch --show-current
