@@ -1,0 +1,10 @@
+1st time commit
+
+git config --global user.name "amay96"
+git config --global user.email "amay96@example.com"
+
+Mandatory commands to initialize a git repository and make the first commit:
+
+# git init
+# git remote add origin https://github.com/amay96/GIT1.git
+# git pull origin main
