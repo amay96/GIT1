@@ -8,3 +8,10 @@ Mandatory commands to initialize a git repository and make the first commit:
 # git init
 # git remote add origin https://github.com/amay96/GIT1.git
 # git pull origin main
+# git add .
+# git status
+# git commit -m "first commit"
+# git push -u origin main
+
+Creating a new branch and switching to it:
+git checkout -b new-branch-name
